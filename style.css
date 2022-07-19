@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(161,34,195);
+    background: linear-gradient(0deg, rgba(161,34,195,1) 0%, rgba(97,45,253,1) 100%);
+     
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main{
+    flex:1 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.form-bord:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.header{
+    overflow: hidden;
+    align-items: center;
+    background-image: url('./img/header.svg');
+}
+
+
+.logo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: auto;
+    
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    align-items: row;
+    gap: 5px 10px;
+
+}
+
+.button{
+    background-color:black;
+    color: white;
+    border-color: purple;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+
+.buttons :hover{
+    border-color: white;
+}
+.button p:hover{
+     text-shadow: 1px 1px 9px white;
+}
+.content-form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    background-color: transparent;
+    border:  2px solid;
+    border-color:  white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form label{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-family:'Kaushan Script', cursive;  
+}
+
+.form input{
+    padding: 13px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.sub{
+    font-family:'Edu QLD Beginner', cursive;
+    margin-top: 5mm;
+    transition: 0.5s;
+}
+
+.sub:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+
+.footer{
+   background-image: url('./img/footer.svg');
+   display: flex;
+   padding: 35px;
+
+}
+
